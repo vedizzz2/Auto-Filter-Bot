@@ -53,7 +53,7 @@ else:
 INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '-1002523558100').split()]
 if len(INDEX_CHANNELS) == 0:
     logger.info('INDEX_CHANNELS is empty')
-LOG_CHANNEL = environ.get('LOG_CHANNEL', '')
+LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002599639831')
 if len(LOG_CHANNEL) == 0:
     logger.error('LOG_CHANNEL is missing, exiting now')
     exit()
