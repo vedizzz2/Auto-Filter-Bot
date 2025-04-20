@@ -22,17 +22,17 @@ def is_valid_ip(ip):
     return re.match(ip_pattern, ip) is not None
 
 # Bot information
-API_ID = environ.get('API_ID', '28638866')
+API_ID = environ.get('API_ID8866')
 if len(API_ID) == 0:
     logger.error('API_ID is missing, exiting now')
     exit()
 else:
     API_ID = int(API_ID)
-API_HASH = environ.get('API_HASH', 'a748074bea1e6ace57394aceb194d292')
+API_HASH = environ.get('API_HASe57394aceb194d292')
 if len(API_HASH) == 0:
     logger.error('API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '7650812145:AAEnnThF7d3si2ArUNLotTExPRj_ADK3GF8')
+BOT_TOKEN = environ.get('BOEnnThF7d3si2ArUNLotTExPRj_ADK3GF8')
 if len(BOT_TOKEN) == 0:
     logger.error('BOT_TOKEN is missing, exiting now')
     exit()
